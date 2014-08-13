@@ -1,8 +1,5 @@
 # AccountAlertView
 
-[![Version](http://cocoapod-badges.herokuapp.com/v/ORStackView/badge.png)](http://cocoadocs.org/docsets/ORStackView)
-[![Platform](http://cocoapod-badges.herokuapp.com/p/ORStackView/badge.png)](http://cocoadocs.org/docsets/ORStackView)
-
 Simple, quick account flow using UIAlertViews.
 
 Written in Swift.
