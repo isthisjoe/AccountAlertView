@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D4B2DBF199BE27300038A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B2DBE199BE27300038A34 /* AppDelegate.swift */; };
 		0D4B2DC1199BE27300038A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B2DC0199BE27300038A34 /* ViewController.swift */; };
-		0D4B2DC4199BE27300038A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4B2DC2199BE27300038A34 /* Main.storyboard */; };
 		0D4B2DC6199BE27300038A34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4B2DC5199BE27300038A34 /* Images.xcassets */; };
 		0D4B2DD2199BE27300038A34 /* AccountAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B2DD1199BE27300038A34 /* AccountAlertViewTests.swift */; };
+		0D4B2DDD199BE2D900038A34 /* AccountAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B2DDC199BE2D900038A34 /* AccountAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +29,11 @@
 		0D4B2DBD199BE27300038A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D4B2DBE199BE27300038A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D4B2DC0199BE27300038A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D4B2DC3199BE27300038A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D4B2DC5199BE27300038A34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D4B2DCB199BE27300038A34 /* AccountAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4B2DD0199BE27300038A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D4B2DD1199BE27300038A34 /* AccountAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAlertViewTests.swift; sourceTree = "<group>"; };
+		0D4B2DDC199BE2D900038A34 /* AccountAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +57,7 @@
 		0D4B2DB0199BE27300038A34 = {
 			isa = PBXGroup;
 			children = (
+				0D4B2DDB199BE2D900038A34 /* Classes */,
 				0D4B2DBB199BE27300038A34 /* AccountAlertView */,
 				0D4B2DCE199BE27300038A34 /* AccountAlertViewTests */,
 				0D4B2DBA199BE27300038A34 /* Products */,
@@ -77,7 +78,6 @@
 			children = (
 				0D4B2DBE199BE27300038A34 /* AppDelegate.swift */,
 				0D4B2DC0199BE27300038A34 /* ViewController.swift */,
-				0D4B2DC2199BE27300038A34 /* Main.storyboard */,
 				0D4B2DC5199BE27300038A34 /* Images.xcassets */,
 				0D4B2DBC199BE27300038A34 /* Supporting Files */,
 			);
@@ -107,6 +107,14 @@
 				0D4B2DD0199BE27300038A34 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D4B2DDB199BE2D900038A34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D4B2DDC199BE2D900038A34 /* AccountAlertView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +197,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4B2DC4199BE27300038A34 /* Main.storyboard in Resources */,
 				0D4B2DC6199BE27300038A34 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4B2DC1199BE27300038A34 /* ViewController.swift in Sources */,
+				0D4B2DDD199BE2D900038A34 /* AccountAlertView.swift in Sources */,
 				0D4B2DBF199BE27300038A34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +238,6 @@
 			targetProxy = 0D4B2DCC199BE27300038A34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0D4B2DC2199BE27300038A34 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D4B2DC3199BE27300038A34 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0D4B2DD3199BE27300038A34 /* Debug */ = {
@@ -397,6 +394,7 @@
 				0D4B2DD7199BE27300038A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D4B2DD8199BE27300038A34 /* Build configuration list for PBXNativeTarget "AccountAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +403,7 @@
 				0D4B2DDA199BE27300038A34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
